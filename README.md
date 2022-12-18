@@ -8,10 +8,10 @@
 
 | Student         | Info                                                             |
 |:----------------|:-----------------------------------------------------------------|
-| Name            | ...                                                              |
+| Name            | Janssen Niels                                                              |
 | email           | [john.doe@example.com](mailto:john.doe@example.com)              |
-| Github Username | ...                                                              |
-| Hosting         | [https://yourdomain.netlify.app](https://yourdomain.netlify.app) |
+| Github Username | NielsJanssen90                                                              |
+| Hosting         | https://doctershoes.be/ |
 
 ## Installatie
 
