@@ -7,8 +7,9 @@
         <meta name="author" content="Niels Janssen"/>
         <title>Het Doctershoes</title>
         <!--Favicon tabblad-->
-        <link rel="icon" type="image/x-icon" href="img/favicon/mansion.png" />
-        <!--Fontawesome logos-->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon/mansion.png" />
+        <!--Fontawesome links-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -75,7 +76,7 @@
                         <p>Ons fietscafé is DE plek voor een drankje en lekker hapje wanneer je op ontdekking bent in het Maasland. </p>
                         <p>Een pauze nodig tijdens een lange wandeling, even op adem komen tijdens een fietstocht of gewoon zin in rust en buitenlucht met een prachtig uitzicht? Kom dan zeker eens langs in ons fietscafé.</p>
                         <p>Geniet bij ons met volle teugen van de Maaslandse sfeer en het mooie park met weelderig groen waar kinderen kunnen spelen terwijl jij geniet van je "teske koffie”.</p>
-                        <a class="btn btn-primary" href="fietscafe.html" role="button">Ontdek meer!</a>
+                        <a class="btn btn-primary custom-mb-2" href="fietscafe.html" role="button">Ontdek meer!</a>
                     </div>
                     <div class="col-md-6">
                         <img class="img-fluid" src="./assets/img/fietscafe.JPG" alt="Foto fietscafé">
@@ -87,17 +88,17 @@
             <div class="container">
                 <div class="row text-lg-start m-auto">
                     <div class="col-md-6">
-                        <h3 class="h3">Info</h3>
-                        <strong><p>Op maandag en dinsdag is het fietscafé gesloten, De B&B blijft 7 op 7 open.</p></strong>
-                        <strong><p>Het fietscafé opent vanaf 13:30hr en het restaurant is enkel op reservatie en open van 18.00 h tot 20.00h</p></strong>
-                        <p>We zijn elke dag bereikbaar van 09hr tot 22hr of per mail</p>
-                        <p>089/23.10.10</p>
-                        <p>info@doctershoes.be</p>
-                        <p>Bosstraatje 40</p>
-                        <p>3640 Kessenich</p>
+                        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.9608325163863!2d5.809242816117528!3d51.14607337957735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0cb966072e421%3A0x330469cb8c1cf44!2sBosstraatje%2040%2C%203640%20Kinrooi!5e0!3m2!1snl!2sbe!4v1603566386842!5m2!1snl!2sbe" width="500" height="450" frameborder="0" style="border:20px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                     <div class="col-md-6">
-                        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.9608325163863!2d5.809242816117528!3d51.14607337957735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0cb966072e421%3A0x330469cb8c1cf44!2sBosstraatje%2040%2C%203640%20Kinrooi!5e0!3m2!1snl!2sbe!4v1603566386842!5m2!1snl!2sbe" width="500" height="450" frameborder="0" style="border:20px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <h3 class="h3">Info</h3>
+                        <p id="bold">Op maandag en dinsdag is het fietscafé gesloten, De B&B blijft 7 op 7 open.</p>
+                        <p id="bold">Het fietscafé opent vanaf 13:30hr en het restaurant is enkel op reservatie en open van 18.00 h tot 20.00h</p>
+                        <p>We zijn elke dag bereikbaar van 09hr tot 22hr of per mail</p>
+                        <a id="link" href ="mailto: info@doctershoes.be">info@doctershoes.be<i class="fa-sharp fa-solid fa-link"></i></a>
+                        <a id="link" href=“tel:089/23.10.10”>Tel : 089/23.10.10<i class="fa-sharp fa-solid fa-link" id="desktophide"></i></a>
+                        <p id="nomargin">Bosstraatje 40</p>
+                        <p id="nomargin">3640 Kessenich</p>
                     </div>
                 </div>
             </div>
@@ -114,11 +115,10 @@
                 <div class="col-lg-4 my-3 my-lg-0">
                     <a class="btn btn-dark mx-2" href="https://www.facebook.com/BB-Het-Doctershoes-114191947114542"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-dark mx-2" href="https://www.instagram.com/bnb_het_doctershoes/"><i class="fab fa-instagram"></i></a>
-
                 </div>
                 <div class="col-lg-4 text-lg-end">
-                    <p>089/23.10.10</p>
-                    <p>info@doctershoes.be</p>
+                    <a class="link" href ="mailto: info@doctershoes.be">info@doctershoes.be  <i class="fa-sharp fa-solid fa-link"></i></a>
+                    <a class="link" href=“tel:089/23.10.10”>Tel : 089/23.10.10  <i class="fa-sharp fa-solid fa-link" id="desktophide"></i></a>
                     <p>Bosstraatje 40</p>
                     <p>3640 Kessenich</p>
                 </div>

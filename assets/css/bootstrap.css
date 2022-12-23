@@ -160,7 +160,7 @@ h6, .h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  /*margin-bottom: 1rem;*/
 }
 
 abbr[title] {
@@ -8211,7 +8211,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #ecebe7;
 }
 
 .bg-dark {
