@@ -144,14 +144,14 @@ footer p{
 #underline{
     border-bottom:1rem;
 }
-#bold{
+.bold{
     font-weight: bold;
 }
 
 .maps {
     max-width: 100%;
     max-height: 372px;
-
+    border:20px;
     border-radius: 3%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -168,7 +168,7 @@ footer p{
     .custom-mb-0 {
         margin-bottom: 0;
     }
-    #link {
+    .link {
         font-size: 1.4rem;
         display: block;
         color: #1c293e;
@@ -181,15 +181,15 @@ footer p{
         font-size:1.2rem;
     }
     .custom-pb-2 {
-        padding-bottom: 2rem;
+        padding-bottom: 0rem;
     }
     .custom-mb-2 {
-        margin-bottom: 2rem;
+        margin-bottom: 0rem;
     }
     .custom-mb-0 {
         margin-bottom: 0;
     }
-    #link {
+    .link {
         font-size: 1.2rem;
         display: block;
         color: #1c293e;
@@ -203,7 +203,7 @@ footer p{
     }
 
     .custom-pb-2 {
-        padding-bottom: 2rem;
+        padding-bottom: 0rem;
     }
     .custom-mb-0 {
         margin-bottom: 0rem;
@@ -212,7 +212,7 @@ footer p{
         margin-bottom: 0;
     }
 
-    #link {
+    .link {
         font-size: 1.2rem;
         display: block;
         color: #1c293e;
@@ -220,7 +220,7 @@ footer p{
         line-height: 1.5;
         text-decoration:none;
     }
-    #desktophide {
+    .desktophide {
         display: none;
     }
 }
@@ -234,7 +234,6 @@ footer p{
     transform: scale(1.5);
 }
 
-}
 #paddingmap {
     padding-top:0.8rem;
 }
@@ -263,12 +262,12 @@ th{
     color:#fff;
     text-decoration: none;
 }
-#nomargin {
+.nomargin {
     margin-bottom: 0;
 }
-#link {
-    font-size: 1.2rem;
-    display: block;
-    color: #1c293e;
-    text-decoration:none;
+/*.link {*/
+/*    display: block;*/
+/*    color: #fff;*/
+/*    text-decoration:none;*/
 }
+
