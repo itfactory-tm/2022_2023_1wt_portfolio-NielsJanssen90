@@ -3176,8 +3176,10 @@ textarea.form-control-lg {
 .btn-lg, .btn-group-lg > .btn {
   --bs-btn-padding-y: 0.5rem;
   --bs-btn-padding-x: 1rem;
-  --bs-btn-font-size: 1.25rem;
-  --bs-btn-border-radius: 0.5rem;
+  --bs-btn-font-size: 2rem;
+  --bs-btn-border-radius: 1rem;
+  font-family: Fira Sans;
+  color:#1c293d;
 }
 
 .btn-sm, .btn-group-sm > .btn {
