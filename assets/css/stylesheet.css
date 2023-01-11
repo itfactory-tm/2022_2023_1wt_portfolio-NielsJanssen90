@@ -1,11 +1,84 @@
+/*### Welkom ###*/
+/*Hieronder vind u alle op maat gemaakte styling terug opgedeeld in segmenten.*/
+/*Elk segment begint met en eindigt met een comment die beschrijft voor welk gedeelte het mag dienen.*/
+/*Ik heb gewerkt met media queries per segment omdat me dit overzichtelijker leek om achteraf aanpassingen te doen.*/
 
+/*body start*/
+@media (min-width: 360px){
+    p{
+        font-size:1.4rem;
+    }
+    .custom-pb-2 {
+        padding-bottom: 2rem !important;
+    }
+    .custom-mb-2 {
+        margin-bottom: 2rem !important;
+    }
+    .custom-mb-0 {
+        margin-bottom: 0 !important;
+    }
+    .link {
+        font-size: 1.4rem;
+        display: block;
+        color: #1c293e;
+        font-weight: 400;
+        line-height: 1.5;
+        text-decoration: none;
+    }
+}
+@media (min-width: 768px){
+    p{
+        font-size:1.2rem;
+    }
+    .custom-pb-2 {
+        padding-bottom: 0rem !important;
+    }
+    .custom-mb-2 {
+        margin-bottom: 0rem !important;
+    }
+    .custom-mb-0 {
+        margin-bottom: 0 !important;
+    }
+    .link {
+        font-size: 1.2rem;
+        display: block;
+        color: #1c293e;
+        font-weight: 400;
+        line-height: 1.5;
+        text-decoration: none;
+    }
+}
+@media (min-width: 992px) {
+    p {
+        font-size: 1.2rem;
+    }
 
-/*navbar*/
+    .custom-pb-2 {
+        padding-bottom: 0rem !important;
+    }
+    .custom-mb-0 {
+        margin-bottom: 0rem !important;
+    }
+    .custom-mb-2 {
+        margin-bottom: 0 !important;
+    }
 
+    .link {
+        font-size: 1.2rem;
+        display: block;
+        color: #1c293e;
+        font-weight: 400;
+        line-height: 1.5;
+        text-decoration:none;
+    }
+    .desktophide {
+        display: none;
+    }
+}
+/*body end*/
 
+/*banner / heading start */
 
-
-/*banner / heading */
 @media (min-width: 360px){
     header.banner {
         padding-top: 10.5rem;
@@ -92,10 +165,10 @@
         background-size: cover;
     }
 }
+/*banner / heading end*/
 
-/*main*/
 
-/*footer*/
+/*footer start*/
 .footer {
     width: 100%;
     text-align: center;
@@ -108,8 +181,16 @@ footer p{
     font-size:0.8rem;
     margin:0.5rem;
 }
+.footer .link {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    color:#fff;
+    text-decoration: none;
+}
+/*footer end*/
 
-/*404-page*/
+/*404-page start*/
 
 @media (min-width: 360px){
     body.notfound {
@@ -117,7 +198,8 @@ footer p{
         background-image: url("../img/test-background2.jpg");
         background-repeat: no-repeat;
         background-size:100%;
-        padding-top:15rem;
+        background-position-y: bottom
+    ;
     }
 
     h1.notfound {
@@ -222,8 +304,10 @@ footer p{
     }
 }
 
-/*rest*/
+/*404-page end*/
 
+
+/*image styling start*/
 .fullsize {
     margin: auto;
     max-width: 100%;
@@ -253,6 +337,24 @@ footer p{
     object-fit:cover;
     margin:auto 0;
 }
+.maps {
+    max-width: 100%;
+    max-height: 372px;
+    border:20px;
+    border-radius: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.zoom {
+    transition: transform .2s;
+    width: auto;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+/*image styling end*/
+
 .page-section {
     padding:3rem 0rem;
 }
@@ -268,97 +370,7 @@ footer p{
     font-weight: bold;
 }
 
-.maps {
-    max-width: 100%;
-    max-height: 372px;
-    border:20px;
-    border-radius: 3%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-@media (min-width: 360px){
-    p{
-        font-size:1.4rem;
-    }
-    .custom-pb-2 {
-        padding-bottom: 2rem !important;
-    }
-    .custom-mb-2 {
-        margin-bottom: 2rem !important;
-    }
-    .custom-mb-0 {
-        margin-bottom: 0 !important;
-    }
-    .link {
-        font-size: 1.4rem;
-        display: block;
-        color: #1c293e;
-        font-weight: 400;
-        line-height: 1.5;
-        text-decoration: none;
-    }
-}
-@media (min-width: 768px){
-    p{
-        font-size:1.2rem;
-    }
-    .custom-pb-2 {
-        padding-bottom: 0rem !important;
-    }
-    .custom-mb-2 {
-        margin-bottom: 0rem !important;
-    }
-    .custom-mb-0 {
-        margin-bottom: 0 !important;
-    }
-    .link {
-        font-size: 1.2rem;
-        display: block;
-        color: #1c293e;
-        font-weight: 400;
-        line-height: 1.5;
-        text-decoration: none;
-    }
-}
-@media (min-width: 992px) {
-    p {
-        font-size: 1.2rem;
-    }
-
-    .custom-pb-2 {
-        padding-bottom: 0rem !important;
-    }
-    .custom-mb-0 {
-        margin-bottom: 0rem !important;
-    }
-    .custom-mb-2 {
-        margin-bottom: 0 !important;
-    }
-
-    .link {
-        font-size: 1.2rem;
-        display: block;
-        color: #1c293e;
-        font-weight: 400;
-        line-height: 1.5;
-        text-decoration:none;
-    }
-    .desktophide {
-        display: none;
-    }
-}
-.zoom {
-    transition: transform .2s;
-    width: auto;
-    margin: 0 auto;
-}
-
-.zoom:hover {
-    transform: scale(1.5);
-}
-
-#paddingmap {
-    padding-top:0.8rem;
-}
+/*Table start*/
 table,td{
     font-size:1rem;
     border:3px solid;
@@ -376,16 +388,28 @@ th{
     background-color: #1c293d;
     color: #fff;
 }
+/*Table end*/
 
-.footer .link {
-    font-size: 0.8rem;
-    margin-bottom: 0.5rem;
-    display: block;
-    color:#fff;
-    text-decoration: none;
-}
+/*Rest*/
 .nomargin {
     margin-bottom: 0 !important;
 
+}
+.page-section {
+    padding:3rem 0rem;
+}
+
+.page-section.first{
+    margin-top:3rem;
+}
+
+#underline{
+    border-bottom:1rem;
+}
+.bold{
+    font-weight: bold;
+}
+#paddingmap {
+    padding-top:0.8rem;
 }
 
