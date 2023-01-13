@@ -11,6 +11,10 @@
 a:hover {
     color: #000;
 }
+
+body {
+    min-height: 100vh;
+}
 @media (min-width: 360px){
     p{
         font-size:1.4rem;
@@ -416,5 +420,9 @@ li::marker {
 }
 #paddingmap {
     padding-top:0.8rem;
+}
+
+.bottom{
+    bottom:0;
 }
 
