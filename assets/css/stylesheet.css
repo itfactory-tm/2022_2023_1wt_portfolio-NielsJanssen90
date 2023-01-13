@@ -1,9 +1,16 @@
 /*### Welkom ###*/
-/*Hieronder vind u alle op maat gemaakte styling terug opgedeeld in segmenten.*/
+/*Hieronder vind u de op maat gemaakte styling terug opgedeeld in segmenten.*/
 /*Elk segment begint met en eindigt met een comment die beschrijft voor welk gedeelte het mag dienen.*/
 /*Ik heb gewerkt met media queries per segment omdat me dit overzichtelijker leek om achteraf aanpassingen te doen.*/
 
 /*body start*/
+::selection {
+    color: #ffffff;
+    background: #1c293d;
+}
+a:hover {
+    color: #000;
+}
 @media (min-width: 360px){
     p{
         font-size:1.4rem;
@@ -214,7 +221,13 @@ footer p{
         text-align: center;
         color:#fff;
     }
-
+    p.notfound{
+        font-family: Fira Sans;
+        font-size:2rem;
+        text-align: center;
+        color:#fff;
+        text-shadow: 3px 3px 2px #000;
+    }
     img.notfound {
         display:block;
         margin:0 auto;
@@ -236,6 +249,13 @@ footer p{
         padding-top: 5rem;
         background-size:100%;
     }
+    p.notfound{
+        font-family: Fira Sans;
+        font-size:2rem;
+        text-align: center;
+        color:#fff;
+        text-shadow: 3px 3px 2px #000;
+    }
     h1.notfound {
         font-family: Fira Sans;
         font-size:5rem;
@@ -255,14 +275,6 @@ footer p{
         display:block;
         margin:0 auto;
         height: 10rem;
-    }
-    #404{
-        background-image:url("../img/testbg4.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding-top:3rem;
-        padding-bottom: 3rem;
     }
 }
 
@@ -275,7 +287,13 @@ footer p{
         background-size:80%;
         margin-top:5rem;
     }
-
+    p.notfound{
+        font-family: Fira Sans;
+        font-size:2rem;
+        text-align: center;
+        color:#fff;
+        text-shadow: 3px 3px 2px #000;
+    }
     h1.notfound {
         font-family: Fira Sans;
         font-size:5rem;
@@ -297,13 +315,7 @@ footer p{
         height: 10rem;
         text-shadow: 3px 3px 2px #000;
     }
-    #404{
-        background-image:url("../img/testbg4.jpg");
-        padding-top:5rem;
-        padding-bottom: 5rem;
-    }
 }
-
 /*404-page end*/
 
 
@@ -355,21 +367,6 @@ footer p{
 }
 /*image styling end*/
 
-.page-section {
-    padding:3rem 0rem;
-}
-
-.page-section.first{
-    margin-top:3rem;
-}
-
-#underline{
-    border-bottom:1rem;
-}
-.bold{
-    font-weight: bold;
-}
-
 /*Table start*/
 table,td{
     font-size:1rem;
@@ -390,10 +387,21 @@ th{
 }
 /*Table end*/
 
-/*Rest*/
+/*list start*/
+
+.customli{
+    list-style-type: square;
+}
+li::marker {
+    color: #2d4265;
+}
+
+
+/*list end*/
+
+/*rest*/
 .nomargin {
     margin-bottom: 0 !important;
-
 }
 .page-section {
     padding:3rem 0rem;
