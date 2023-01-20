@@ -8,8 +8,13 @@
     color: #ffffff;
     background: #1c293d;
 }
-a:hover {
+
+a.link1:hover {
+    color: #cbcbcb;
+}
+a.link2:hover{
     color: #000;
+    font-weight: bold;
 }
 
 body {
