@@ -1,22 +1,9 @@
 /*### Welkom ###*/
-/*Hieronder vind u de op maat gemaakte styling terug opgedeeld in segmenten.*/
+/*Hieronder vindt u de op maat gemaakte styling terug opgedeeld in segmenten.*/
 /*Elk segment begint met en eindigt met een comment die beschrijft voor welk gedeelte het mag dienen.*/
 /*Ik heb gewerkt met media queries per segment omdat me dit overzichtelijker leek om achteraf aanpassingen te doen.*/
 
-/*body start*/
-::selection {
-    color: #ffffff;
-    background: #1c293d;
-}
-
-a.link1:hover {
-    color: #cbcbcb;
-}
-a.link2:hover{
-    color: #000;
-    font-weight: bold;
-}
-
+/*default start*/
 body {
     min-height: 100vh;
 }
@@ -91,7 +78,8 @@ body {
         text-decoration:none;
     }
 }
-/*body end*/
+
+/*default end*/
 
 /*banner / heading start */
 
@@ -432,5 +420,17 @@ li::marker {
 
 .bottom{
     bottom:0;
+}
+::selection {
+    color: #ffffff;
+    background: #1c293d;
+}
+
+a.link1:hover {
+    color: #cbcbcb;
+}
+a.link2:hover{
+    color: #000;
+    font-weight: bold;
 }
 
